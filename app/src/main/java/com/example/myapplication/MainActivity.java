@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("majd");
         System.out.println("majd");
         System.out.println("zain");
+        System.out.println("zain");
+        System.out.println("zain");
+        System.out.println("zain");
+
         Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Main", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Activity", Toast.LENGTH_SHORT).show();
