@@ -18,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         >
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,6 +64,7 @@
         android:layout_marginTop="@dimen/thirtytwo"
         android:layout_marginRight="@dimen/thirtytwo"
         android:hint="@string/password"
+        android:inputType="textPassword"
         android:background="@drawable/ed_border"
         android:padding="@dimen/fifteen"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/thirtytwo"
-        android:layout_marginTop="@dimen/thirtytwo"
+        android:layout_marginTop="32dp"
         android:layout_marginRight="@dimen/thirtytwo"
         android:background="@color/blue"
         android:text="@string/login"
