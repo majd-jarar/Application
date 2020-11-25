@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.out.println("majd");
-        System.out.println("nnn");
+        System.out.println("majdf");
 
     }
 }
